@@ -1,0 +1,1682 @@
+fileFormatVersion: 2
+guid: 632f8ebe81a772e4998224dabbbf836b
+timeCreated: 1543586191
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AimReference
+    100002: AimReference 1
+    100004: AimReference 2
+    100006: AimReference 3
+    100008: AimReference 4
+    100010: Armature
+    100012: AssaultRifle
+    100014: AudioSource
+    100016: AudioSource 1
+    100018: AudioSource 2
+    100020: AudioSource 3
+    100022: AudioSource 4
+    100024: Bone.001
+    100026: Bone.002
+    100028: Bone.003
+    100030: Bone.004
+    100032: Bone.005
+    100034: Bone.006
+    100036: Bone.006_end
+    100038: Bone.007
+    100040: Bone.008
+    100042: Bone.010
+    100044: Bone.011
+    100046: Bone.012
+    100048: Bone.013
+    100050: Bone.013_end
+    100052: Bone.014
+    100054: Bone.015
+    100056: bowHandler
+    100058: BowHolder
+    100060: Camera
+    100062: Camera 1
+    100064: cameraMask
+    100066: cameraSprite
+    100068: Capsule_pist
+    100070: Capsule_rif
+    100072: Capsule_rif 1
+    100074: Capsule_rif 2
+    100076: collisionAudio
+    100078: defaultHandler
+    100080: defaultHandler 1
+    100082: defaultHandler 2
+    100084: Fire_1
+    100086: Fire_1 1
+    100088: Fire_1 2
+    100090: Fire_1 3
+    100092: Fire_1 4
+    100094: Fire_2
+    100096: Fire_2 1
+    100098: Fire_2 2
+    100100: Fire_2 3
+    100102: Fire_3
+    100104: Fire_3 1
+    100106: Fire_3 2
+    100108: Fire_4
+    100110: Fire_4 1
+    100112: Fire_4 2
+    100114: Fire_5
+    100116: Fire_5 1
+    100118: Fire_5 2
+    100120: HandgunHolder
+    100122: hitBox
+    100124: hitbox
+    100126: hitBox 1
+    100128: hitbox 1
+    100130: hitBox 2
+    100132: hitbox 2
+    100134: hitBox 3
+    100136: hitbox 3
+    100138: Laser
+    100140: laserSight
+    100142: leftFoot_trigger
+    100144: leftHandIK
+    100146: leftHandIK 1
+    100148: leftHandIK 2
+    100150: leftHandIK 3
+    100152: leftHandIK 4
+    100154: LeftHandlers
+    100156: meleeHandler
+    100158: meleeHandler 1
+    100160: Mesh_LOD
+    100162: muzzle
+    100164: muzzle 1
+    100166: muzzle 2
+    100168: muzzle 3
+    100170: muzzle 4
+    100172: New Sprite
+    100174: Particles
+    100176: Particles 1
+    100178: Particles 2
+    100180: Particles 3
+    100182: Particles 4
+    100184: Point light
+    100186: Point light 1
+    100188: Point light 2
+    100190: Point light 3
+    100192: Point light 4
+    100194: pump
+    100196: ragdollAudioSource
+    100198: renderer
+    100200: renderer 1
+    100202: renderer 2
+    100204: renderer 3
+    100206: renderer 4
+    100208: rifle_renderer
+    100210: RifleHolder
+    100212: rightFoot_trigger
+    100214: RightHandlers
+    100216: Root
+    100218: RPG_missel
+    100220: ScopeTarget
+    100222: ScopeTarget 1
+    100224: ScopeTarget 2
+    100226: ScopeTarget 3
+    100228: ScopeTarget 4
+    100230: shieldHandler
+    100232: shieldHandler 1
+    100234: //RootNode
+    100236: ShotgunHolder
+    100238: Smoke_1
+    100240: Smoke_1 1
+    100242: Smoke_1 2
+    100244: Smoke_1 3
+    100246: Smoke_1 4
+    100248: Spring
+    100250: Spring_end
+    100252: Throw_End
+    100254: Throw_Start
+    100256: Trail
+    100258: Trail 1
+    100260: vAssaultRifle
+    100262: vAssaultRifle_3.001 (1)
+    100264: VBOT_:Head
+    100266: VBOT_:HeadTop_End
+    100268: VBOT_:HeadTop_End_end
+    100270: VBOT_:Hips
+    100272: VBOT_:LeftArm
+    100274: VBOT_:LeftFoot
+    100276: VBOT_:LeftForeArm
+    100278: VBOT_:LeftHand
+    100280: VBOT_:LeftHandIndex1
+    100282: VBOT_:LeftHandIndex2
+    100284: VBOT_:LeftHandIndex3
+    100286: VBOT_:LeftHandIndex4
+    100288: VBOT_:LeftHandIndex4_end
+    100290: VBOT_:LeftHandMiddle1
+    100292: VBOT_:LeftHandMiddle2
+    100294: VBOT_:LeftHandMiddle3
+    100296: VBOT_:LeftHandMiddle4
+    100298: VBOT_:LeftHandMiddle4_end
+    100300: VBOT_:LeftHandPinky1
+    100302: VBOT_:LeftHandPinky2
+    100304: VBOT_:LeftHandPinky3
+    100306: VBOT_:LeftHandPinky4
+    100308: VBOT_:LeftHandPinky4_end
+    100310: VBOT_:LeftHandRing1
+    100312: VBOT_:LeftHandRing2
+    100314: VBOT_:LeftHandRing3
+    100316: VBOT_:LeftHandRing4
+    100318: VBOT_:LeftHandRing4_end
+    100320: VBOT_:LeftHandThumb1
+    100322: VBOT_:LeftHandThumb2
+    100324: VBOT_:LeftHandThumb3
+    100326: VBOT_:LeftHandThumb4
+    100328: VBOT_:LeftHandThumb4_end
+    100330: VBOT_:LeftLeg
+    100332: VBOT_:LeftShoulder
+    100334: VBOT_:LeftToe_End
+    100336: VBOT_:LeftToe_End_end
+    100338: VBOT_:LeftToeBase
+    100340: VBOT_:LeftUpLeg
+    100342: VBOT_:Neck
+    100344: VBOT_:RightArm
+    100346: VBOT_:RightFoot
+    100348: VBOT_:RightForeArm
+    100350: VBOT_:RightHand
+    100352: VBOT_:RightHandIndex1
+    100354: VBOT_:RightHandIndex2
+    100356: VBOT_:RightHandIndex3
+    100358: VBOT_:RightHandIndex4
+    100360: VBOT_:RightHandIndex4_end
+    100362: VBOT_:RightHandMiddle1
+    100364: VBOT_:RightHandMiddle2
+    100366: VBOT_:RightHandMiddle3
+    100368: VBOT_:RightHandMiddle4
+    100370: VBOT_:RightHandMiddle4_end
+    100372: VBOT_:RightHandPinky1
+    100374: VBOT_:RightHandPinky2
+    100376: VBOT_:RightHandPinky3
+    100378: VBOT_:RightHandPinky4
+    100380: VBOT_:RightHandPinky4_end
+    100382: VBOT_:RightHandRing1
+    100384: VBOT_:RightHandRing2
+    100386: VBOT_:RightHandRing3
+    100388: VBOT_:RightHandRing4
+    100390: VBOT_:RightHandRing4_end
+    100392: VBOT_:RightHandThumb1
+    100394: VBOT_:RightHandThumb2
+    100396: VBOT_:RightHandThumb3
+    100398: VBOT_:RightHandThumb4
+    100400: VBOT_:RightHandThumb4_end
+    100402: VBOT_:RightLeg
+    100404: VBOT_:RightShoulder
+    100406: VBOT_:RightToe_End
+    100408: VBOT_:RightToe_End_end
+    100410: VBOT_:RightToeBase
+    100412: VBOT_:RightUpLeg
+    100414: VBOT_:Spine
+    100416: VBOT_:Spine1
+    100418: VBOT_:Spine2
+    100420: VBOT_:VBOT_LOD0
+    100422: VBOT_:VBOT_LOD1
+    100424: VBOT_:VBOT_LOD2
+    100426: VBOT_:VBOT_LOD3
+    100428: vBow
+    100430: vBow 1
+    100432: vBow_Rig
+    100434: vHandgun
+    100436: vHandgun 1
+    100438: vRPG
+    100440: vShotgun
+    100442: vShotgun 1
+    100444: vShotgun-detach
+    100446: vSniper
+    100448: WeaponHolders
+    400000: AimReference
+    400002: AimReference 1
+    400004: AimReference 2
+    400006: AimReference 3
+    400008: AimReference 4
+    400010: Armature
+    400012: AssaultRifle
+    400014: AudioSource
+    400016: AudioSource 1
+    400018: AudioSource 2
+    400020: AudioSource 3
+    400022: AudioSource 4
+    400024: Bone.001
+    400026: Bone.002
+    400028: Bone.003
+    400030: Bone.004
+    400032: Bone.005
+    400034: Bone.006
+    400036: Bone.006_end
+    400038: Bone.007
+    400040: Bone.008
+    400042: Bone.010
+    400044: Bone.011
+    400046: Bone.012
+    400048: Bone.013
+    400050: Bone.013_end
+    400052: Bone.014
+    400054: Bone.015
+    400056: bowHandler
+    400058: BowHolder
+    400060: Camera
+    400062: Camera 1
+    400064: cameraMask
+    400066: cameraSprite
+    400068: Capsule_pist
+    400070: Capsule_rif
+    400072: Capsule_rif 1
+    400074: Capsule_rif 2
+    400076: collisionAudio
+    400078: defaultHandler
+    400080: defaultHandler 1
+    400082: defaultHandler 2
+    400084: Fire_1
+    400086: Fire_1 1
+    400088: Fire_1 2
+    400090: Fire_1 3
+    400092: Fire_1 4
+    400094: Fire_2
+    400096: Fire_2 1
+    400098: Fire_2 2
+    400100: Fire_2 3
+    400102: Fire_3
+    400104: Fire_3 1
+    400106: Fire_3 2
+    400108: Fire_4
+    400110: Fire_4 1
+    400112: Fire_4 2
+    400114: Fire_5
+    400116: Fire_5 1
+    400118: Fire_5 2
+    400120: HandgunHolder
+    400122: hitBox
+    400124: hitbox
+    400126: hitBox 1
+    400128: hitbox 1
+    400130: hitBox 2
+    400132: hitbox 2
+    400134: hitBox 3
+    400136: hitbox 3
+    400138: Laser
+    400140: laserSight
+    400142: leftFoot_trigger
+    400144: leftHandIK
+    400146: leftHandIK 1
+    400148: leftHandIK 2
+    400150: leftHandIK 3
+    400152: leftHandIK 4
+    400154: LeftHandlers
+    400156: meleeHandler
+    400158: meleeHandler 1
+    400160: Mesh_LOD
+    400162: muzzle
+    400164: muzzle 1
+    400166: muzzle 2
+    400168: muzzle 3
+    400170: muzzle 4
+    400172: New Sprite
+    400174: Particles
+    400176: Particles 1
+    400178: Particles 2
+    400180: Particles 3
+    400182: Particles 4
+    400184: Point light
+    400186: Point light 1
+    400188: Point light 2
+    400190: Point light 3
+    400192: Point light 4
+    400194: pump
+    400196: ragdollAudioSource
+    400198: renderer
+    400200: renderer 1
+    400202: renderer 2
+    400204: renderer 3
+    400206: renderer 4
+    400208: rifle_renderer
+    400210: RifleHolder
+    400212: rightFoot_trigger
+    400214: RightHandlers
+    400216: Root
+    400218: RPG_missel
+    400220: ScopeTarget
+    400222: ScopeTarget 1
+    400224: ScopeTarget 2
+    400226: ScopeTarget 3
+    400228: ScopeTarget 4
+    400230: shieldHandler
+    400232: shieldHandler 1
+    400234: //RootNode
+    400236: ShotgunHolder
+    400238: Smoke_1
+    400240: Smoke_1 1
+    400242: Smoke_1 2
+    400244: Smoke_1 3
+    400246: Smoke_1 4
+    400248: Spring
+    400250: Spring_end
+    400252: Throw_End
+    400254: Throw_Start
+    400256: Trail
+    400258: Trail 1
+    400260: vAssaultRifle
+    400262: vAssaultRifle_3.001 (1)
+    400264: VBOT_:Head
+    400266: VBOT_:HeadTop_End
+    400268: VBOT_:HeadTop_End_end
+    400270: VBOT_:Hips
+    400272: VBOT_:LeftArm
+    400274: VBOT_:LeftFoot
+    400276: VBOT_:LeftForeArm
+    400278: VBOT_:LeftHand
+    400280: VBOT_:LeftHandIndex1
+    400282: VBOT_:LeftHandIndex2
+    400284: VBOT_:LeftHandIndex3
+    400286: VBOT_:LeftHandIndex4
+    400288: VBOT_:LeftHandIndex4_end
+    400290: VBOT_:LeftHandMiddle1
+    400292: VBOT_:LeftHandMiddle2
+    400294: VBOT_:LeftHandMiddle3
+    400296: VBOT_:LeftHandMiddle4
+    400298: VBOT_:LeftHandMiddle4_end
+    400300: VBOT_:LeftHandPinky1
+    400302: VBOT_:LeftHandPinky2
+    400304: VBOT_:LeftHandPinky3
+    400306: VBOT_:LeftHandPinky4
+    400308: VBOT_:LeftHandPinky4_end
+    400310: VBOT_:LeftHandRing1
+    400312: VBOT_:LeftHandRing2
+    400314: VBOT_:LeftHandRing3
+    400316: VBOT_:LeftHandRing4
+    400318: VBOT_:LeftHandRing4_end
+    400320: VBOT_:LeftHandThumb1
+    400322: VBOT_:LeftHandThumb2
+    400324: VBOT_:LeftHandThumb3
+    400326: VBOT_:LeftHandThumb4
+    400328: VBOT_:LeftHandThumb4_end
+    400330: VBOT_:LeftLeg
+    400332: VBOT_:LeftShoulder
+    400334: VBOT_:LeftToe_End
+    400336: VBOT_:LeftToe_End_end
+    400338: VBOT_:LeftToeBase
+    400340: VBOT_:LeftUpLeg
+    400342: VBOT_:Neck
+    400344: VBOT_:RightArm
+    400346: VBOT_:RightFoot
+    400348: VBOT_:RightForeArm
+    400350: VBOT_:RightHand
+    400352: VBOT_:RightHandIndex1
+    400354: VBOT_:RightHandIndex2
+    400356: VBOT_:RightHandIndex3
+    400358: VBOT_:RightHandIndex4
+    400360: VBOT_:RightHandIndex4_end
+    400362: VBOT_:RightHandMiddle1
+    400364: VBOT_:RightHandMiddle2
+    400366: VBOT_:RightHandMiddle3
+    400368: VBOT_:RightHandMiddle4
+    400370: VBOT_:RightHandMiddle4_end
+    400372: VBOT_:RightHandPinky1
+    400374: VBOT_:RightHandPinky2
+    400376: VBOT_:RightHandPinky3
+    400378: VBOT_:RightHandPinky4
+    400380: VBOT_:RightHandPinky4_end
+    400382: VBOT_:RightHandRing1
+    400384: VBOT_:RightHandRing2
+    400386: VBOT_:RightHandRing3
+    400388: VBOT_:RightHandRing4
+    400390: VBOT_:RightHandRing4_end
+    400392: VBOT_:RightHandThumb1
+    400394: VBOT_:RightHandThumb2
+    400396: VBOT_:RightHandThumb3
+    400398: VBOT_:RightHandThumb4
+    400400: VBOT_:RightHandThumb4_end
+    400402: VBOT_:RightLeg
+    400404: VBOT_:RightShoulder
+    400406: VBOT_:RightToe_End
+    400408: VBOT_:RightToe_End_end
+    400410: VBOT_:RightToeBase
+    400412: VBOT_:RightUpLeg
+    400414: VBOT_:Spine
+    400416: VBOT_:Spine1
+    400418: VBOT_:Spine2
+    400420: VBOT_:VBOT_LOD0
+    400422: VBOT_:VBOT_LOD1
+    400424: VBOT_:VBOT_LOD2
+    400426: VBOT_:VBOT_LOD3
+    400428: vBow
+    400430: vBow 1
+    400432: vBow_Rig
+    400434: vHandgun
+    400436: vHandgun 1
+    400438: vRPG
+    400440: vShotgun
+    400442: vShotgun 1
+    400444: vShotgun-detach
+    400446: vSniper
+    400448: WeaponHolders
+    7400000: Reload_Pistol
+    7400002: Reload_RPG
+    7400004: Reload_Shotgun
+    7400006: Reload_Rifle
+    7400008: Shot_RPG
+    7400010: Shot_Shotgun
+    7400012: Shot_Rifle
+    7400014: Pistol_Reload
+    7400016: Shot_Sniper
+    7400018: Shot_Pistol
+    7400020: Grenade_aim
+    7400022: Grenade_throw
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Reload_Pistol
+      takeName: Reload_Pistol
+      firstFrame: 0
+      lastFrame: 77
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Reload_RPG
+      takeName: Reload_RPG
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Reload_Shotgun
+      takeName: Reload_Shotgun
+      firstFrame: 9.4
+      lastFrame: 31.099998
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Reload_Rifle
+      takeName: Reload_Rifle
+      firstFrame: 0
+      lastFrame: 84.00001
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shot_RPG
+      takeName: Shot_RPG
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shot_Shotgun
+      takeName: Shot_Shotgun
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shot_Rifle
+      takeName: Shot_Rifle
+      firstFrame: 0
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shot_Sniper
+      takeName: Shot_Sniper
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shot_Pistol
+      takeName: Shot_Pistol
+      firstFrame: 0
+      lastFrame: 7.0000005
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grenade_aim
+      takeName: Grenade_aim
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: -12.92
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Grenade_throw
+      takeName: Grenade_throw
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: -18.23
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: VBOT_:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: VBOT_:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: VBOT_LOD(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.000000081460335, y: -0, z: 0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: VBOT_:Hips
+      parentName: 
+      position: {x: 0.00019899552, y: 104.913734, z: -1.9585699}
+      rotation: {x: -0.00000017530357, y: 0.00000047677122, z: -0.000014443002, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:Spine
+      parentName: 
+      position: {x: -1.6871125e-10, y: 9.702705, z: -0.15236208}
+      rotation: {x: -0.007850627, y: -0.0000005901344, z: 0.000014438815, w: 0.9999692}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: VBOT_:Spine1
+      parentName: 
+      position: {x: 1.02090515e-11, y: 11.321213, z: -0.0000001788139}
+      rotation: {x: 0.0000000046566133, y: -5.333572e-14, z: 6.8136756e-13, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: VBOT_:Spine2
+      parentName: 
+      position: {x: -4.7400968e-12, y: 12.938553, z: 0.00000017881393}
+      rotation: {x: -0.000000011175873, y: 1.3353475e-18, z: -8.1315156e-20, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: VBOT_:Neck
+      parentName: 
+      position: {x: -1.8170866e-11, y: 14.5558195, z: -0.0000001788139}
+      rotation: {x: 0.00785081, y: 4.084771e-14, z: 2.2770148e-13, w: 0.9999692}
+      scale: {x: 1, y: 0.9999996, z: 0.99999964}
+    - name: VBOT_:Head
+      parentName: 
+      position: {x: -7.3683655e-12, y: 5.6972804, z: 2.4140098}
+      rotation: {x: 1.6653348e-16, y: 4.387005e-19, z: 9.1814114e-20, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:HeadTop_End
+      parentName: 
+      position: {x: -1.5957928e-11, y: 20.432783, z: 8.657652}
+      rotation: {x: 1.6653348e-16, y: 4.387005e-19, z: 9.1814114e-20, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:HeadTop_End_end
+      parentName: 
+      position: {x: -0, y: 22.191282, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:LeftShoulder
+      parentName: 
+      position: {x: -6.233017, y: 12.723451, z: -0.060752567}
+      rotation: {x: 0.56555074, y: -0.42279127, z: 0.5711599, w: 0.41854063}
+      scale: {x: 0.99999946, y: 0.9999997, z: 0.9999995}
+    - name: VBOT_:LeftArm
+      parentName: 
+      position: {x: -0.00000041723249, y: 12.885075, z: 0.000009480863}
+      rotation: {x: -0.1476417, y: 0.007941283, z: -0.00621769, w: 0.9889895}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+    - name: VBOT_:LeftForeArm
+      parentName: 
+      position: {x: -0.00000024976904, y: 28.782936, z: 0.000004796884}
+      rotation: {x: 0.0000014798451, y: 0.00010023918, z: 0.00000030412875, w: 1}
+      scale: {x: 1.0000001, y: 0.99999964, z: 0.9999999}
+    - name: VBOT_:LeftHand
+      parentName: 
+      position: {x: -0.00000031946908, y: 29.885254, z: -0.0000056620333}
+      rotation: {x: -0.000122516, y: -0.012010347, z: 0.057643548, w: 0.99826497}
+      scale: {x: 1.0000005, y: 1, z: 1.0000001}
+    - name: VBOT_:LeftHandThumb1
+      parentName: 
+      position: {x: 2.207032, y: 2.8915968, z: 1.3849902}
+      rotation: {x: 0.06278457, y: -0.026700797, z: -0.4749348, w: 0.87737226}
+      scale: {x: 1, y: 1.0000002, z: 0.99999964}
+    - name: VBOT_:LeftHandThumb2
+      parentName: 
+      position: {x: -0.4968084, y: 3.0740163, z: 0.000013850628}
+      rotation: {x: 0.00008349873, y: -0.003154348, z: 0.13292927, w: 0.9911205}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: VBOT_:LeftHandThumb3
+      parentName: 
+      position: {x: 0.37320492, y: 3.4936538, z: 0.00000017881392}
+      rotation: {x: -0.00010924415, y: -0.0015527824, z: -0.035468064, w: 0.9993696}
+      scale: {x: 1, y: 0.9999999, z: 0.99999946}
+    - name: VBOT_:LeftHandThumb4
+      parentName: 
+      position: {x: 0.12360834, y: 3.4833553, z: -0.0000096559515}
+      rotation: {x: 0.000000011175872, y: 0.000000011175872, z: 0.000000056810677,
+        w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: VBOT_:LeftHandThumb4_end
+      parentName: 
+      position: {x: -0, y: 3.4855406, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:LeftHandIndex1
+      parentName: 
+      position: {x: 3.306355, y: 10.214577, z: 0.16185996}
+      rotation: {x: -0.00057633274, y: -0.00008826893, z: -0.057947285, w: 0.9983195}
+      scale: {x: 0.9999994, y: 1.0000005, z: 0.99999946}
+    - name: VBOT_:LeftHandIndex2
+      parentName: 
+      position: {x: -0.0022915674, y: 3.742948, z: -0.0000026019695}
+      rotation: {x: 0.00000022857085, y: 0.000003505723, z: 0.0004560625, w: 0.99999994}
+      scale: {x: 0.99999994, y: 0.99999964, z: 1.0000001}
+    - name: VBOT_:LeftHandIndex3
+      parentName: 
+      position: {x: 0.0010102539, y: 3.357671, z: 0.0000006369955}
+      rotation: {x: 0.00000029828897, y: -0.0000003028567, z: 0.00006260211, w: 1}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: VBOT_:LeftHandIndex4
+      parentName: 
+      position: {x: 0.0012805796, y: 3.0745363, z: -0.000006300746}
+      rotation: {x: -0.00000008045498, y: 2.508182e-10, z: -5.8730437e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:LeftHandIndex4_end
+      parentName: 
+      position: {x: -0, y: 3.07454, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:LeftHandMiddle1
+      parentName: 
+      position: {x: 1.1613122, y: 10.023253, z: -0.011463714}
+      rotation: {x: -0.0007780783, y: -0.0035744617, z: -0.057712052, w: 0.9983266}
+      scale: {x: 1, y: 1.0000005, z: 0.9999997}
+    - name: VBOT_:LeftHandMiddle2
+      parentName: 
+      position: {x: -0.00060562877, y: 4.0604153, z: 0.000001076325}
+      rotation: {x: 0.00000047429356, y: -0.0000044267067, z: -0.00016212398, w: 1}
+      scale: {x: 1, y: 0.9999993, z: 1.0000004}
+    - name: VBOT_:LeftHandMiddle3
+      parentName: 
+      position: {x: -0.0018412619, y: 3.8137584, z: 0.0000071693207}
+      rotation: {x: 0.0000016969184, y: -0.000004723498, z: 0.0005666729, w: 0.9999999}
+      scale: {x: 0.99999994, y: 1.0000006, z: 0.99999976}
+    - name: VBOT_:LeftHandMiddle4
+      parentName: 
+      position: {x: 0.0024477316, y: 3.6274889, z: -0.0000036316922}
+      rotation: {x: 0.00000005096203, y: -1.3542201e-10, z: -0.0000000016708129, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: VBOT_:LeftHandMiddle4_end
+      parentName: 
+      position: {x: -0, y: 3.6274853, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:LeftHandRing1
+      parentName: 
+      position: {x: -1.3299953, y: 10.050946, z: -0.0104290685}
+      rotation: {x: -0.0007830648, y: -0.003655989, z: -0.05754699, w: 0.99833584}
+      scale: {x: 0.9999994, y: 1.0000001, z: 0.99999976}
+    - name: VBOT_:LeftHandRing2
+      parentName: 
+      position: {x: 0.00056505756, y: 3.2887826, z: -0.00001606815}
+      rotation: {x: -0.0000003780744, y: -0.0000008826013, z: -0.00012194871, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1.0000002}
+    - name: VBOT_:LeftHandRing3
+      parentName: 
+      position: {x: -0.00015043419, y: 3.256652, z: 0.000012098185}
+      rotation: {x: 0.0000019568083, y: -0.000005436704, z: -0.00003674567, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999996}
+    - name: VBOT_:LeftHandRing4
+      parentName: 
+      position: {x: -0.00041358636, y: 2.9665046, z: 0.000024707986}
+      rotation: {x: 0.00000003154195, y: 0.0000000055908194, z: 0.0000000044438986,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:LeftHandRing4_end
+      parentName: 
+      position: {x: -0, y: 2.966476, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:LeftHandPinky1
+      parentName: 
+      position: {x: -3.1376708, y: 9.433374, z: 0.09271452}
+      rotation: {x: -0.0004632812, y: 0.0018745903, z: -0.05825882, w: 0.99829966}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: VBOT_:LeftHandPinky2
+      parentName: 
+      position: {x: -0.0039647813, y: 3.2343886, z: -0.000012723379}
+      rotation: {x: -0.0000011046868, y: 0.000015655518, z: 0.0005995122, w: 0.9999998}
+      scale: {x: 1.0000001, y: 0.9999998, z: 0.9999997}
+    - name: VBOT_:LeftHandPinky3
+      parentName: 
+      position: {x: -0.00007703411, y: 2.6718638, z: 0.000018784818}
+      rotation: {x: -0.00000036671616, y: 0.00006196149, z: 0.00089296716, w: 0.99999964}
+      scale: {x: 0.9999999, y: 1.0000007, z: 1.0000002}
+    - name: VBOT_:LeftHandPinky4
+      parentName: 
+      position: {x: 0.004042044, y: 2.2874355, z: 0.0000013776297}
+      rotation: {x: 0.0000000027521878, y: -9.31788e-10, z: -0.000000019734088, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:LeftHandPinky4_end
+      parentName: 
+      position: {x: -0, y: 2.2874296, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:RightShoulder
+      parentName: 
+      position: {x: 6.2330184, y: 12.722447, z: 0.0031886697}
+      rotation: {x: 0.56846106, y: 0.42061523, z: -0.5682299, w: 0.42077276}
+      scale: {x: 0.9999998, y: 1.0000004, z: 0.9999994}
+    - name: VBOT_:RightArm
+      parentName: 
+      position: {x: -0.0000004218891, y: 12.885061, z: -0.0000033304093}
+      rotation: {x: -0.14777023, y: -0.0063015977, z: 0.00074138155, w: 0.9890014}
+      scale: {x: 0.99999994, y: 0.99999934, z: 0.9999998}
+    - name: VBOT_:RightForeArm
+      parentName: 
+      position: {x: 0.0000005218607, y: 28.777094, z: -0.00000024959442}
+      rotation: {x: 0.00000016583917, y: -0.0000813696, z: -0.0000003511705, w: 1}
+      scale: {x: 0.9999995, y: 1.0000006, z: 1.0000001}
+    - name: VBOT_:RightHand
+      parentName: 
+      position: {x: 0.00000020841252, y: 29.88406, z: 0.000014346092}
+      rotation: {x: 0.0051883897, y: 0.021200966, z: -0.052770805, w: 0.9983681}
+      scale: {x: 1.0000007, y: 1, z: 1}
+    - name: VBOT_:RightHandThumb1
+      parentName: 
+      position: {x: -2.1773484, y: 2.860778, z: 1.5000123}
+      rotation: {x: 0.050683524, y: 0.025704542, z: 0.46451232, w: 0.8837414}
+      scale: {x: 1.0000001, y: 0.9999995, z: 0.9999996}
+    - name: VBOT_:RightHandThumb2
+      parentName: 
+      position: {x: 0.4479191, y: 3.0840445, z: 0.0000027716158}
+      rotation: {x: 0.00010331243, y: 0.003032002, z: -0.10960612, w: 0.9939705}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:RightHandThumb3
+      parentName: 
+      position: {x: -0.26757833, y: 3.5406926, z: 0.000021934507}
+      rotation: {x: 0.000032287433, y: -0.00049903296, z: 0.011669388, w: 0.9999318}
+      scale: {x: 1, y: 0.9999996, z: 1.0000001}
+    - name: VBOT_:RightHandThumb4
+      parentName: 
+      position: {x: -0.18034028, y: 3.4578032, z: -0.00000989437}
+      rotation: {x: -0.000000001862645, y: -0.0000000037252899, z: 0.000000028870998,
+        w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: VBOT_:RightHandThumb4_end
+      parentName: 
+      position: {x: -0, y: 3.4625075, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:RightHandIndex1
+      parentName: 
+      position: {x: -3.2609918, y: 10.302796, z: 0.20424767}
+      rotation: {x: -0.006308148, y: 0.000009262221, z: 0.052337017, w: 0.9986096}
+      scale: {x: 1, y: 0.9999997, z: 0.99999976}
+    - name: VBOT_:RightHandIndex2
+      parentName: 
+      position: {x: -0.002191752, y: 3.5275145, z: -0.0000073621045}
+      rotation: {x: -0.00000036630905, y: 0.00003379532, z: -0.00061720755, w: 0.9999998}
+      scale: {x: 0.99999994, y: 0.99999964, z: 1.0000005}
+    - name: VBOT_:RightHandIndex3
+      parentName: 
+      position: {x: -0.006155073, y: 3.336971, z: 0.0000052740793}
+      rotation: {x: -0.00000062817367, y: 0.000036295332, z: 0.002351098, w: 0.99999726}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1}
+    - name: VBOT_:RightHandIndex4
+      parentName: 
+      position: {x: 0.008346348, y: 2.918003, z: -0.0000014519318}
+      rotation: {x: 0.00000000842556, y: 0.000000092695934, z: 0.00000008829295, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: VBOT_:RightHandIndex4_end
+      parentName: 
+      position: {x: -0, y: 2.9180162, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:RightHandMiddle1
+      parentName: 
+      position: {x: -1.0459455, y: 9.890944, z: -0.12528582}
+      rotation: {x: -0.006425467, y: 0.002276494, z: 0.053364556, w: 0.99855185}
+      scale: {x: 0.99999934, y: 0.9999995, z: 0.9999997}
+    - name: VBOT_:RightHandMiddle2
+      parentName: 
+      position: {x: 0.006039291, y: 4.100815, z: 0.000013880431}
+      rotation: {x: -0.0000010921335, y: -0.000014545862, z: -0.00018764834, w: 1}
+      scale: {x: 1, y: 0.9999995, z: 0.9999998}
+    - name: VBOT_:RightHandMiddle3
+      parentName: 
+      position: {x: 0.0041791643, y: 3.861288, z: -0.000013139098}
+      rotation: {x: -0.0000004923334, y: 0.000086348875, z: -0.001940938, w: 0.99999815}
+      scale: {x: 1, y: 1.0000007, z: 0.99999994}
+    - name: VBOT_:RightHandMiddle4
+      parentName: 
+      position: {x: -0.010218023, y: 3.6506317, z: -0.000012870877}
+      rotation: {x: -0.00000003355308, y: -7.557048e-10, z: -0.000000006678988, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:RightHandMiddle4_end
+      parentName: 
+      position: {x: -0, y: 3.6506531, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:RightHandRing1
+      parentName: 
+      position: {x: 1.0770532, y: 9.615877, z: -0.04499008}
+      rotation: {x: -0.0064634937, y: 0.0029677008, z: 0.052755825, w: 0.9985821}
+      scale: {x: 0.9999992, y: 0.99999964, z: 1}
+    - name: VBOT_:RightHandRing2
+      parentName: 
+      position: {x: 0.000864461, y: 3.5615304, z: -0.000015171244}
+      rotation: {x: -0.0000007118655, y: -0.00000040345734, z: -0.00024250762, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: VBOT_:RightHandRing3
+      parentName: 
+      position: {x: -0.00084478216, y: 3.4413192, z: 0.000004537403}
+      rotation: {x: 0.0000003853574, y: -0.0000024102292, z: 0.000116190175, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.9999997}
+    - name: VBOT_:RightHandRing4
+      parentName: 
+      position: {x: -0.000018931923, y: 3.1309967, z: -0.000009484588}
+      rotation: {x: -0.000000040627246, y: -0.000000007421774, z: 0.0000000014611032,
+        w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: VBOT_:RightHandRing4_end
+      parentName: 
+      position: {x: -0, y: 3.1309974, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:RightHandPinky1
+      parentName: 
+      position: {x: 3.229885, y: 8.635466, z: 0.26456282}
+      rotation: {x: -0.0067263856, y: 0.007935547, z: 0.052596204, w: 0.9985617}
+      scale: {x: 0.999999, y: 0.99999946, z: 1.0000002}
+    - name: VBOT_:RightHandPinky2
+      parentName: 
+      position: {x: 0.000006397138, y: 3.5136409, z: 0.0000012964009}
+      rotation: {x: -0.00000052158674, y: 0.0000013498303, z: 0.000034841643, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.999999}
+    - name: VBOT_:RightHandPinky3
+      parentName: 
+      position: {x: 0.00017850239, y: 2.8926263, z: -0.0000014435499}
+      rotation: {x: 0.0000013946006, y: 0.00000016396328, z: -0.000073763025, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: VBOT_:RightHandPinky4
+      parentName: 
+      position: {x: -0.00018684844, y: 2.5621476, z: 0.0000047087665}
+      rotation: {x: 0.00000000583043, y: -0.0000000037147578, z: 0.000000024821702,
+        w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: VBOT_:RightHandPinky4_end
+      parentName: 
+      position: {x: -0, y: 2.562149, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:LeftUpLeg
+      parentName: 
+      position: {x: -10.920647, y: -5.3976464, z: 1.9481007}
+      rotation: {x: -0.000032394124, y: 0.0055751884, z: 0.99996626, w: 0.0060344283}
+      scale: {x: 1.0000803, y: 1.0000002, z: 1.0000001}
+    - name: VBOT_:LeftLeg
+      parentName: 
+      position: {x: 0.0000013736861, y: 46.4423, z: -0.00000012147937}
+      rotation: {x: -0.045484938, y: -0.0005017409, z: 0.01265651, w: 0.99888474}
+      scale: {x: 0.9999995, y: 0.9999993, z: 0.99999976}
+    - name: VBOT_:LeftFoot
+      parentName: 
+      position: {x: 0.00000043968427, y: 42.52575, z: 0.0000009657814}
+      rotation: {x: 0.48034218, y: -0.0065366975, z: -0.0049221627, w: 0.877043}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: VBOT_:LeftToeBase
+      parentName: 
+      position: {x: -0.00000046880447, y: 16.945314, z: -0.00000080466265}
+      rotation: {x: 0.30737466, y: 0.05506234, z: -0.01781606, w: 0.94982713}
+      scale: {x: 0.99999976, y: 0.9999996, z: 0.9999995}
+    - name: VBOT_:LeftToe_End
+      parentName: 
+      position: {x: -0.000001521781, y: 6.2084913, z: 0.00000005960464}
+      rotation: {x: -0.000000012223608, y: -0.000004991947, z: 0.00000046117927, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: VBOT_:LeftToe_End_end
+      parentName: 
+      position: {x: -0, y: 6.20849, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:RightUpLeg
+      parentName: 
+      position: {x: 10.920648, y: -5.3976483, z: 1.6830438}
+      rotation: {x: 0.00000074489566, y: 0.006958819, z: 0.99995744, w: -0.006058274}
+      scale: {x: 1.0005851, y: 0.99999964, z: 1.0000213}
+    - name: VBOT_:RightLeg
+      parentName: 
+      position: {x: 0.00000036699382, y: 46.442978, z: 0.00000006676418}
+      rotation: {x: -0.045270246, y: 0.00038048133, z: -0.012654801, w: 0.9988946}
+      scale: {x: 0.99999946, y: 1.0000006, z: 0.99999976}
+    - name: VBOT_:RightFoot
+      parentName: 
+      position: {x: 0.0000007188318, y: 42.515278, z: -0.0000045327465}
+      rotation: {x: 0.48199156, y: 0.0065317303, z: 0.004921196, w: 0.8761377}
+      scale: {x: 1.0000006, y: 1.0000002, z: 0.9999993}
+    - name: VBOT_:RightToeBase
+      parentName: 
+      position: {x: 0.000000012107193, y: 17.102888, z: 0.0000004842877}
+      rotation: {x: 0.30412865, y: -0.055317834, z: 0.017672166, w: 0.9508593}
+      scale: {x: 0.9999993, y: 1.0000002, z: 0.9999997}
+    - name: VBOT_:RightToe_End
+      parentName: 
+      position: {x: 0.000000996515, y: 6.241361, z: -0.00000017881392}
+      rotation: {x: -0.000000027357602, y: 0.000034474506, z: -0.0000000888831, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: VBOT_:RightToe_End_end
+      parentName: 
+      position: {x: -0, y: 6.2414274, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: VBOT_:VBOT_LOD0
+      parentName: 
+      position: {x: -0.000000008568167, y: 0.000000117856246, z: -0.0000000011920734}
+      rotation: {x: 0.00000008122751, y: -0.0000000018335409, z: 1.1508664e-24, w: 1}
+      scale: {x: 0.01, y: 0.009999999, z: 0.01}
+    - name: VBOT_:VBOT_LOD1
+      parentName: 
+      position: {x: -0.000000008568167, y: 0.000000117856246, z: -0.0000000011920734}
+      rotation: {x: 0.00000008122751, y: -0.0000000018335409, z: 1.1508664e-24, w: 1}
+      scale: {x: 0.01, y: 0.009999999, z: 0.01}
+    - name: VBOT_:VBOT_LOD2
+      parentName: 
+      position: {x: -0.000000008568167, y: 0.000000117856246, z: -0.0000000011920734}
+      rotation: {x: 0.00000008122751, y: -0.0000000018335409, z: 1.1508664e-24, w: 1}
+      scale: {x: 0.01, y: 0.009999999, z: 0.01}
+    - name: VBOT_:VBOT_LOD3
+      parentName: 
+      position: {x: -0.000000008568167, y: 0.000000117856246, z: -0.0000000011920734}
+      rotation: {x: 0.00000008122751, y: -0.0000000018335409, z: 1.1508664e-24, w: 1}
+      scale: {x: 0.01, y: 0.009999999, z: 0.01}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 340f99b8334a14c4a8a01dce6e1e5348,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

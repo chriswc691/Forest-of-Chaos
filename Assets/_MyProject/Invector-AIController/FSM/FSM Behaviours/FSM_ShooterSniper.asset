@@ -1,0 +1,1016 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fc604039227434d8b4e63ebc5e74a5, type: 3}
+  m_Name: FSM_ShooterSniper
+  m_EditorClassIdentifier: 
+  selectedNode: {fileID: 114777723428061538}
+  wantConnection: 0
+  connectionNode: {fileID: 0}
+  showProperties: 1
+  states:
+  - {fileID: 114623865005668288}
+  - {fileID: 114777723428061538}
+  - {fileID: 114882150851204216}
+  - {fileID: 114522573857816280}
+  - {fileID: 114777928246777348}
+  - {fileID: 114806927771402914}
+  - {fileID: 114024938278082648}
+  - {fileID: 114108751473116510}
+  panOffset: {x: 235, y: 175}
+  overNode: 0
+  actions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  decisions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  icon: {fileID: 2800000, guid: 71509c5d804e82d4bab6ecd153b20f9f, type: 3}
+--- !u!114 &114024938278082648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a0dfdec137ab1f45be406a6af5eaa0a, type: 3}
+  m_Name: ShooterCombat
+  m_EditorClassIdentifier: 
+  description: Custom Shooter Combat State
+  selectedDecisionIndex: 0
+  canRemove: 1
+  canTranstTo: 1
+  canSetAsDefault: 1
+  canEditName: 1
+  canEditColor: 1
+  isOpen: 0
+  isSelected: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 685
+    y: 180
+    width: 235
+    height: 30
+  positionRect: {x: 685, y: 180}
+  rectWidth: 235
+  editingName: 1
+  nodeColor: {r: 1, g: 0, b: 0, a: 1}
+  resizeLeft: 0
+  resizeRight: 0
+  inDrag: 0
+  resetCurrentDestination: 0
+  transitions:
+  - decisions:
+    - trueValue: 1
+      decision: {fileID: 114194159120130302}
+      isValid: 0
+      validated: 0
+    trueState: {fileID: 114777928246777348}
+    falseState: {fileID: 0}
+    muteTrue: 0
+    muteFalse: 0
+    transitionType: 0
+    transitionDelay: 0
+    parentState: {fileID: 114024938278082648}
+    trueRect:
+      serializedVersion: 2
+      x: 802.5
+      y: 195
+      width: 0
+      height: 0
+    falseRect:
+      serializedVersion: 2
+      x: 802.5
+      y: 195
+      width: 0
+      height: 0
+    selectedTrue: 0
+    selectedFalse: 0
+    trueSideRight: 1
+    falseSideRight: 1
+    decisionEditor: {fileID: 0}
+    isOpen: 0
+    scroolView: {x: 0, y: 0, z: 0}
+    sameTargetCount: 0
+  - decisions:
+    - trueValue: 0
+      decision: {fileID: 114536024554316042}
+      isValid: 0
+      validated: 0
+    trueState: {fileID: 114522573857816280}
+    falseState: {fileID: 0}
+    muteTrue: 0
+    muteFalse: 0
+    transitionType: 0
+    transitionDelay: 0
+    parentState: {fileID: 114024938278082648}
+    trueRect:
+      serializedVersion: 2
+      x: 802.5
+      y: 195
+      width: 0
+      height: 0
+    falseRect:
+      serializedVersion: 2
+      x: 802.5
+      y: 195
+      width: 0
+      height: 0
+    selectedTrue: 0
+    selectedFalse: 0
+    trueSideRight: 0
+    falseSideRight: 1
+    decisionEditor: {fileID: 0}
+    isOpen: 0
+    scroolView: {x: 0, y: 0, z: 0}
+    sameTargetCount: 0
+  - decisions:
+    - trueValue: 1
+      decision: {fileID: 114335219564936060}
+      isValid: 0
+      validated: 0
+    trueState: {fileID: 114108751473116510}
+    falseState: {fileID: 0}
+    muteTrue: 0
+    muteFalse: 0
+    transitionType: 0
+    transitionDelay: 3
+    parentState: {fileID: 114024938278082648}
+    trueRect:
+      serializedVersion: 2
+      x: 802.5
+      y: 195
+      width: 0
+      height: 0
+    falseRect:
+      serializedVersion: 2
+      x: 802.5
+      y: 195
+      width: 0
+      height: 0
+    selectedTrue: 0
+    selectedFalse: 0
+    trueSideRight: 0
+    falseSideRight: 1
+    decisionEditor: {fileID: 0}
+    isOpen: 0
+    scroolView: {x: 0, y: 0, z: 0}
+    sameTargetCount: 0
+  actions:
+  - {fileID: 114608012262036612}
+  useActions: 1
+  useDecisions: 1
+  parentGraph: {fileID: 11400000}
+  defaultTransition: {fileID: 0}
+  engageSpeed: 1
+--- !u!114 &114068899304952558
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ae139fc49b5fd4db1edea711d8eeb7, type: 3}
+  m_Name: Flee
+  m_EditorClassIdentifier: 
+  parentFSM: {fileID: 11400000}
+  executionType: 1
+  editingName: 0
+  fleeSpeed: 2
+  fleeDistance: 5
+  debugMode: 0
+  debugFleeDirection: 0
+--- !u!114 &114108751473116510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b73a6f13cf18194e889cafd0287a9ec, type: 3}
+  m_Name: TryFlee
+  m_EditorClassIdentifier: 
+  description: FSM State
+  selectedDecisionIndex: 0
+  canRemove: 1
+  canTranstTo: 1
+  canSetAsDefault: 1
+  canEditName: 1
+  canEditColor: 1
+  isOpen: 0
+  isSelected: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 720
+    y: 70
+    width: 150
+    height: 30
+  positionRect: {x: 720, y: 70}
+  rectWidth: 150
+  editingName: 1
+  nodeColor: {r: 1, g: 1, b: 1, a: 1}
+  resizeLeft: 0
+  resizeRight: 0
+  inDrag: 0
+  resetCurrentDestination: 0
+  transitions:
+  - decisions: []
+    trueState: {fileID: 114024938278082648}
+    falseState: {fileID: 0}
+    muteTrue: 0
+    muteFalse: 0
+    transitionType: 0
+    transitionDelay: 2
+    parentState: {fileID: 114108751473116510}
+    trueRect:
+      serializedVersion: 2
+      x: 795
+      y: 85
+      width: 0
+      height: 0
+    falseRect:
+      serializedVersion: 2
+      x: 795
+      y: 85
+      width: 0
+      height: 0
+    selectedTrue: 0
+    selectedFalse: 0
+    trueSideRight: 1
+    falseSideRight: 1
+    decisionEditor: {fileID: 0}
+    isOpen: 0
+    scroolView: {x: 0, y: 0, z: 0}
+    sameTargetCount: 0
+  actions:
+  - {fileID: 0}
+  useActions: 1
+  useDecisions: 1
+  parentGraph: {fileID: 11400000}
+  defaultTransition: {fileID: 0}
+--- !u!114 &114194159120130302
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb70193d892db49468a9f5ea453bdd18, type: 3}
+  m_Name: Target isDead
+  m_EditorClassIdentifier: 
+  parentFSM: {fileID: 11400000}
+  editingName: 0
+  trueRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 10
+  falseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 10
+  selectedTrue: 0
+  selectedFalse: 0
+--- !u!114 &114289720523200560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9477c323a264a3546978223e631ffc6c, type: 3}
+  m_Name: In Combat Range
+  m_EditorClassIdentifier: 
+  parentFSM: {fileID: 11400000}
+  editingName: 0
+  trueRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 10
+  falseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 10
+  selectedTrue: 0
+  selectedFalse: 0
+--- !u!114 &114335219564936060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b309ffe3fece36944b46cce1f2cf80e9, type: 3}
+  m_Name: Check Damage
+  m_EditorClassIdentifier: 
+  parentFSM: {fileID: 11400000}
+  editingName: 0
+  trueRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 10
+  falseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 10
+  selectedTrue: 0
+  selectedFalse: 0
+  damageTypeToCheck: []
+--- !u!114 &114351137740998282
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 714cdc96e35146746ab54334262480d1, type: 3}
+  m_Name: EnableAlert
+  m_EditorClassIdentifier: 
+  parentFSM: {fileID: 11400000}
+  executionType: 2
+  editingName: 0
+  listenerName: EnableAlert
+  message: 
+--- !u!114 &114446778301556196
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 366abe2af20ed4b4f9e21bad4880c1c2, type: 3}
+  m_Name: Look To Target
+  m_EditorClassIdentifier: 
+  parentFSM: {fileID: 11400000}
+  executionType: 1
+  editingName: 0
+--- !u!114 &114520122446804074
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 879c370fa5dfc05498f8a4ea02079370, type: 3}
+  m_Name: Is in Combat
+  m_EditorClassIdentifier: 
+  parentFSM: {fileID: 11400000}
+  editingName: 0
+  trueRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 10
+  falseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 10
+  selectedTrue: 0
+  selectedFalse: 0
+--- !u!114 &114522573857816280
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b73a6f13cf18194e889cafd0287a9ec, type: 3}
+  m_Name: Patrol
+  m_EditorClassIdentifier: 
+  description: 
+  selectedDecisionIndex: 0
+  canRemove: 1
+  canTranstTo: 1
+  canSetAsDefault: 1
+  canEditName: 1
+  canEditColor: 1
+  isOpen: 0
+  isSelected: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 440
+    y: 285
+    width: 150
+    height: 30
+  positionRect: {x: 440, y: 285}
+  rectWidth: 150
+  editingName: 1
+  nodeColor: {r: 0, g: 1, b: 0.3882353, a: 1}
+  resizeLeft: 0
+  resizeRight: 0
+  inDrag: 0
+  resetCurrentDestination: 0
+  transitions:
+  - decisions:
+    - trueValue: 1
+      decision: {fileID: 114194159120130302}
+      isValid: 0
+      validated: 0
+    trueState: {fileID: 114777928246777348}
+    falseState: {fileID: 0}
+    muteTrue: 0
+    muteFalse: 0
+    transitionType: 0
+    transitionDelay: 2
+    parentState: {fileID: 114522573857816280}
+    trueRect:
+      serializedVersion: 2
+      x: 515
+      y: 300
+      width: 0
+      height: 0
+    falseRect:
+      serializedVersion: 2
+      x: 515
+      y: 300
+      width: 0
+      height: 0
+    selectedTrue: 0
+    selectedFalse: 0
+    trueSideRight: 1
+    falseSideRight: 1
+    decisionEditor: {fileID: 0}
+    isOpen: 0
+    scroolView: {x: 0, y: 0, z: 0}
+    sameTargetCount: 0
+  actions:
+  - {fileID: 114594439346079144}
+  useActions: 1
+  useDecisions: 1
+  parentGraph: {fileID: 11400000}
+  defaultTransition: {fileID: 0}
+--- !u!114 &114536024554316042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ca162665382f2246a0178586140ab0c, type: 3}
+  m_Name: Can See Target
+  m_EditorClassIdentifier: 
+  parentFSM: {fileID: 11400000}
+  editingName: 0
+  trueRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 10
+  falseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 10
+  selectedTrue: 0
+  selectedFalse: 0
+--- !u!114 &114594439346079144
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889ce58290cc53942bbe6f94db0f83f6, type: 3}
+  m_Name: Patrol
+  m_EditorClassIdentifier: 
+  parentFSM: {fileID: 11400000}
+  executionType: 1
+  editingName: 0
+  debugMode: 0
+  patrolSpeed: 1
+--- !u!114 &114608012262036612
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5ac94e5e12f6248b8bbf505de7edad, type: 3}
+  m_Name: Find Target
+  m_EditorClassIdentifier: 
+  parentFSM: {fileID: 11400000}
+  executionType: 1
+  editingName: 0
+  checkForObstacles: 1
+--- !u!114 &114623865005668288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b73a6f13cf18194e889cafd0287a9ec, type: 3}
+  m_Name: Entry
+  m_EditorClassIdentifier: 
+  description: "This State Run Just in Start \nto init first state"
+  selectedDecisionIndex: 0
+  canRemove: 0
+  canTranstTo: 0
+  canSetAsDefault: 0
+  canEditName: 0
+  canEditColor: 0
+  isOpen: 0
+  isSelected: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 445
+    y: 70
+    width: 150
+    height: 30
+  positionRect: {x: 445, y: 70}
+  rectWidth: 150
+  editingName: 0
+  nodeColor: {r: 0, g: 1, b: 0, a: 1}
+  resizeLeft: 0
+  resizeRight: 0
+  inDrag: 0
+  resetCurrentDestination: 0
+  transitions: []
+  actions: []
+  useActions: 0
+  useDecisions: 0
+  parentGraph: {fileID: 11400000}
+  defaultTransition: {fileID: 114882150851204216}
+--- !u!114 &114777723428061538
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b73a6f13cf18194e889cafd0287a9ec, type: 3}
+  m_Name: AnyState
+  m_EditorClassIdentifier: 
+  description: This State Run after current state
+  selectedDecisionIndex: 0
+  canRemove: 0
+  canTranstTo: 0
+  canSetAsDefault: 0
+  canEditName: 0
+  canEditColor: 0
+  isOpen: 0
+  isSelected: 1
+  nodeRect:
+    serializedVersion: 2
+    x: 1010
+    y: 280
+    width: 150
+    height: 30
+  positionRect: {x: 1010, y: 280}
+  rectWidth: 150
+  editingName: 1
+  nodeColor: {r: 0, g: 1, b: 1, a: 1}
+  resizeLeft: 0
+  resizeRight: 0
+  inDrag: 0
+  resetCurrentDestination: 0
+  transitions:
+  - decisions:
+    - trueValue: 1
+      decision: {fileID: 114536024554316042}
+      isValid: 1
+      validated: 0
+    - trueValue: 0
+      decision: {fileID: 114194159120130302}
+      isValid: 1
+      validated: 0
+    - trueValue: 0
+      decision: {fileID: 114520122446804074}
+      isValid: 0
+      validated: 0
+    - trueValue: 1
+      decision: {fileID: 114289720523200560}
+      isValid: 1
+      validated: 0
+    - trueValue: 1
+      decision: {fileID: 114804559274045968}
+      isValid: 0
+      validated: 0
+    trueState: {fileID: 114806927771402914}
+    falseState: {fileID: 0}
+    muteTrue: 0
+    muteFalse: 0
+    transitionType: 0
+    transitionDelay: 0
+    parentState: {fileID: 114777723428061538}
+    trueRect:
+      serializedVersion: 2
+      x: 1085
+      y: 295
+      width: 0
+      height: 0
+    falseRect:
+      serializedVersion: 2
+      x: 1085
+      y: 295
+      width: 0
+      height: 0
+    selectedTrue: 1
+    selectedFalse: 0
+    trueSideRight: 1
+    falseSideRight: 1
+    decisionEditor: {fileID: 0}
+    isOpen: 0
+    scroolView: {x: 0, y: 0, z: 0}
+    sameTargetCount: 0
+  - decisions:
+    - trueValue: 0
+      decision: {fileID: 114520122446804074}
+      isValid: 0
+      validated: 0
+    - trueValue: 1
+      decision: {fileID: 114335219564936060}
+      isValid: 0
+      validated: 0
+    - trueValue: 0
+      decision: {fileID: 114804559274045968}
+      isValid: 1
+      validated: 0
+    trueState: {fileID: 114024938278082648}
+    falseState: {fileID: 0}
+    muteTrue: 0
+    muteFalse: 0
+    transitionType: 0
+    transitionDelay: 0
+    parentState: {fileID: 114777723428061538}
+    trueRect:
+      serializedVersion: 2
+      x: 1085
+      y: 295
+      width: 0
+      height: 0
+    falseRect:
+      serializedVersion: 2
+      x: 1085
+      y: 295
+      width: 0
+      height: 0
+    selectedTrue: 0
+    selectedFalse: 0
+    trueSideRight: 1
+    falseSideRight: 1
+    decisionEditor: {fileID: 0}
+    isOpen: 0
+    scroolView: {x: 0, y: 0, z: 0}
+    sameTargetCount: 0
+  actions: []
+  useActions: 0
+  useDecisions: 1
+  parentGraph: {fileID: 11400000}
+  defaultTransition: {fileID: 0}
+--- !u!114 &114777928246777348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b73a6f13cf18194e889cafd0287a9ec, type: 3}
+  m_Name: FindTarget With Delay
+  m_EditorClassIdentifier: 
+  description: FSM State
+  selectedDecisionIndex: 0
+  canRemove: 1
+  canTranstTo: 1
+  canSetAsDefault: 1
+  canEditName: 1
+  canEditColor: 1
+  isOpen: 0
+  isSelected: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 685
+    y: 285
+    width: 235
+    height: 30
+  positionRect: {x: 685, y: 285}
+  rectWidth: 235
+  editingName: 1
+  nodeColor: {r: 1, g: 1, b: 1, a: 1}
+  resizeLeft: 0
+  resizeRight: 0
+  inDrag: 0
+  resetCurrentDestination: 0
+  transitions:
+  - decisions: []
+    trueState: {fileID: 114522573857816280}
+    falseState: {fileID: 0}
+    muteTrue: 0
+    muteFalse: 0
+    transitionType: 0
+    transitionDelay: 0
+    parentState: {fileID: 114777928246777348}
+    trueRect:
+      serializedVersion: 2
+      x: 802.5
+      y: 300
+      width: 0
+      height: 0
+    falseRect:
+      serializedVersion: 2
+      x: 802.5
+      y: 300
+      width: 0
+      height: 0
+    selectedTrue: 0
+    selectedFalse: 0
+    trueSideRight: 0
+    falseSideRight: 1
+    decisionEditor: {fileID: 0}
+    isOpen: 0
+    scroolView: {x: 0, y: 0, z: 0}
+    sameTargetCount: 0
+  actions:
+  - {fileID: 114608012262036612}
+  useActions: 1
+  useDecisions: 1
+  parentGraph: {fileID: 11400000}
+  defaultTransition: {fileID: 0}
+--- !u!114 &114804559274045968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c6d6c31fdfd2354aa7bfe8f96aa929c, type: 3}
+  m_Name: InIdle
+  m_EditorClassIdentifier: 
+  parentFSM: {fileID: 11400000}
+  editingName: 1
+  trueRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 10
+  falseRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 10
+    height: 10
+  selectedTrue: 0
+  selectedFalse: 0
+  stateIndex: 0
+--- !u!114 &114806927771402914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b73a6f13cf18194e889cafd0287a9ec, type: 3}
+  m_Name: Alert
+  m_EditorClassIdentifier: 
+  description: FSM State
+  selectedDecisionIndex: 0
+  canRemove: 1
+  canTranstTo: 1
+  canSetAsDefault: 1
+  canEditName: 1
+  canEditColor: 1
+  isOpen: 0
+  isSelected: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 735
+    y: 365
+    width: 160
+    height: 30
+  positionRect: {x: 735, y: 365}
+  rectWidth: 160
+  editingName: 1
+  nodeColor: {r: 0.9862069, g: 1, b: 0, a: 1}
+  resizeLeft: 0
+  resizeRight: 0
+  inDrag: 0
+  resetCurrentDestination: 0
+  transitions:
+  - decisions:
+    - trueValue: 1
+      decision: {fileID: 114536024554316042}
+      isValid: 1
+      validated: 0
+    trueState: {fileID: 114024938278082648}
+    falseState: {fileID: 0}
+    muteTrue: 0
+    muteFalse: 0
+    transitionType: 0
+    transitionDelay: 1
+    parentState: {fileID: 114806927771402914}
+    trueRect:
+      serializedVersion: 2
+      x: 815
+      y: 380
+      width: 0
+      height: 0
+    falseRect:
+      serializedVersion: 2
+      x: 815
+      y: 380
+      width: 0
+      height: 0
+    selectedTrue: 0
+    selectedFalse: 0
+    trueSideRight: 0
+    falseSideRight: 1
+    decisionEditor: {fileID: 0}
+    isOpen: 0
+    scroolView: {x: 0, y: 0, z: 0}
+    sameTargetCount: 0
+  - decisions:
+    - trueValue: 0
+      decision: {fileID: 114536024554316042}
+      isValid: 0
+      validated: 0
+    trueState: {fileID: 114522573857816280}
+    falseState: {fileID: 114522573857816280}
+    muteTrue: 0
+    muteFalse: 0
+    transitionType: 0
+    transitionDelay: 0
+    parentState: {fileID: 114806927771402914}
+    trueRect:
+      serializedVersion: 2
+      x: 815
+      y: 380
+      width: 0
+      height: 0
+    falseRect:
+      serializedVersion: 2
+      x: 815
+      y: 380
+      width: 0
+      height: 0
+    selectedTrue: 0
+    selectedFalse: 0
+    trueSideRight: 0
+    falseSideRight: 0
+    decisionEditor: {fileID: 0}
+    isOpen: 0
+    scroolView: {x: 0, y: 0, z: 0}
+    sameTargetCount: 0
+  actions:
+  - {fileID: 114446778301556196}
+  - {fileID: 114351137740998282}
+  - {fileID: 114856507400925686}
+  useActions: 1
+  useDecisions: 1
+  parentGraph: {fileID: 11400000}
+  defaultTransition: {fileID: 0}
+--- !u!114 &114856507400925686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 714cdc96e35146746ab54334262480d1, type: 3}
+  m_Name: DisableAlert
+  m_EditorClassIdentifier: 
+  parentFSM: {fileID: 11400000}
+  executionType: 4
+  editingName: 0
+  listenerName: DisableAlert
+  message: 
+--- !u!114 &114882150851204216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b73a6f13cf18194e889cafd0287a9ec, type: 3}
+  m_Name: Idle
+  m_EditorClassIdentifier: 
+  description: FSM State
+  selectedDecisionIndex: 0
+  canRemove: 1
+  canTranstTo: 1
+  canSetAsDefault: 1
+  canEditName: 1
+  canEditColor: 1
+  isOpen: 0
+  isSelected: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 450
+    y: 170
+    width: 140
+    height: 30
+  positionRect: {x: 450, y: 170}
+  rectWidth: 140
+  editingName: 0
+  nodeColor: {r: 0.73172575, g: 0.73172575, b: 0.9852941, a: 1}
+  resizeLeft: 0
+  resizeRight: 0
+  inDrag: 0
+  resetCurrentDestination: 1
+  transitions:
+  - decisions: []
+    trueState: {fileID: 114522573857816280}
+    falseState: {fileID: 0}
+    muteTrue: 0
+    muteFalse: 0
+    transitionType: 0
+    transitionDelay: 3
+    parentState: {fileID: 114882150851204216}
+    trueRect:
+      serializedVersion: 2
+      x: 520
+      y: 185
+      width: 0
+      height: 0
+    falseRect:
+      serializedVersion: 2
+      x: 520
+      y: 185
+      width: 0
+      height: 0
+    selectedTrue: 0
+    selectedFalse: 0
+    trueSideRight: 1
+    falseSideRight: 1
+    decisionEditor: {fileID: 0}
+    isOpen: 0
+    scroolView: {x: 0, y: 0, z: 0}
+    sameTargetCount: 0
+  actions:
+  - {fileID: 114608012262036612}
+  useActions: 1
+  useDecisions: 1
+  parentGraph: {fileID: 11400000}
+  defaultTransition: {fileID: 0}

@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0618: 類型或成員已經過時
+dotnet_diagnostic.CS0618.severity = none

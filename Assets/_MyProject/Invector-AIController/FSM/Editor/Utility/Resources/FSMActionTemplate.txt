@@ -1,0 +1,24 @@
+using UnityEngine;
+
+namespace Invector.vCharacterController.AI.FSMBehaviour
+{
+#if UNITY_EDITOR
+    [vFSMHelpbox("This is a #SCRIPTNAME# Action", UnityEditor.MessageType.Info)]
+#endif
+    public class #SCRIPTNAME# : vStateAction
+    {       
+       public override string categoryName
+        {
+            get { return "MyCustomActions/"; }
+        }
+        public override string defaultName
+        {
+            get { return "#SCRIPTNAME#"; }
+        }
+
+        public override void DoAction(vIFSMBehaviourController fsmBehaviour, vFSMComponentExecutionType executionType = vFSMComponentExecutionType.OnStateUpdate)
+        {
+            //TO DO
+        }
+    }
+}

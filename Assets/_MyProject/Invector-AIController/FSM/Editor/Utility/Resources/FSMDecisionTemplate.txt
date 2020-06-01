@@ -1,0 +1,26 @@
+using UnityEngine;
+
+namespace Invector.vCharacterController.AI.FSMBehaviour
+{
+#if UNITY_EDITOR
+    [vFSMHelpbox("This is a #SCRIPTNAME# decision", UnityEditor.MessageType.Info)]
+#endif
+    public class #SCRIPTNAME# : vStateDecision
+    {
+		public override string categoryName
+        {
+            get { return "MyCustomDecisions/"; }
+        }
+
+        public override string defaultName
+        {
+            get { return "#SCRIPTNAME#"; }
+        }
+
+        public override bool Decide(vIFSMBehaviourController fsmBehaviour)
+        {
+            //TO DO
+            return true;
+        }
+    }
+}

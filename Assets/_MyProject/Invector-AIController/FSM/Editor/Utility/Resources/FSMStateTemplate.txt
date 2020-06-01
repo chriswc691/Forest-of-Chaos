@@ -1,0 +1,25 @@
+using UnityEngine;
+
+namespace Invector.vCharacterController.AI.FSMBehaviour
+{
+    public abstract class #SCRIPTNAME# : vFSMState
+    {       
+        public override void OnStateEnter(vIFSMBehaviourController fsmBehaviour)
+        {
+            base.OnStateEnter(fsmBehaviour);
+			//TODO
+        }
+
+        public override void OnStateExit(vIFSMBehaviourController fsmBehaviour)
+        {
+			//TODO
+            base.OnStateExit(fsmBehaviour);
+        }
+
+        public override void UpdateState(vIFSMBehaviourController fsmBehaviour)
+        {      
+			//TODO
+            base.UpdateState(fsmBehaviour);
+        }
+    }
+}
